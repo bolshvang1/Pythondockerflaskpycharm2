@@ -2,9 +2,10 @@ CREATE DATABASE deniroData;
 use deniroData;
 
 CREATE TABLE IF NOT EXISTS tblDeniroImport (
+    `id` int AUTO_INCREMENT,
     `Title` VARCHAR(42) CHARACTER SET utf8,
     `Year` INT,
-    `Score` INT
+    `Score` INT,
     PRIMARY KEY (`id`)
 );
 INSERT INTO tblDeniroImport (Title,Year,Score) VALUES

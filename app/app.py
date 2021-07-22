@@ -22,7 +22,7 @@ def index():
     cursor = mysql.get_db().cursor()
     cursor.execute('SELECT * FROM tblDeniroImport')
     result = cursor.fetchall()
-    return render_template('index.html', title='Home', user=user, movie=result)
+    return render_template('index.html', title='Home', user=user, movies=result)
 
 
 @app.route('/view/<int:movie_id>', methods=['GET'])
