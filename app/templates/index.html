@@ -3,25 +3,17 @@
 <table class="table">
     <thead>
     <tr>
-        <th scope="col">City Name</th>
-        <th scope="col">Latitude</th>
-        <th scope="col">Longitude</th>
-        <th scope="col">Country</th>
-        <th scope="col">Abbreviation</th>
-        <th scope="col">Capital Status</th>
-        <th scope="col">Population</th>
+        <th scope="col">Title</th>
+        <th scope="col">Year</th>
+        <th scope="col">Score</th>
     </tr>
     </thead>
     <tbody>
-    {% for city in cities %}
+    {% for movie in movies %}
     <tr>
-        <td><a href="view/{{city.id}}">{{ city.fldName }}</a></td>
-        <td>{{ city.fldLat }}</td>
-        <td>{{ city.fldLong }}</td>
-        <td>{{ city.fldCountry }}</td>
-        <td>{{ city.fldAbbreviation }}</td>
-        <td>{{ city.fldCapitalStatus }}</td>
-        <td>{{ city.fldPopulation }}</td>
+        <td><a href="view/{{movie.id}}">{{ movie.Title }}</a></td>
+        <td>{{ movie.Year }}</td>
+        <td>{{ movie.Score }}</td>
     </tr>
     {% endfor %}
     </tbody>
