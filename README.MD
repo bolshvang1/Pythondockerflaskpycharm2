@@ -28,7 +28,8 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 
 ---
 
-- Screenshot F: Deleted record from the homepage. See screenshot E for the original record. Deleted "The Intern Part 2".
+- Screenshot F: Deleted record from the homepage. See screenshot E for the original record. 
+- Deleted "The Intern Part 2".
 ![Screenshot F](https://user-images.githubusercontent.com/85648353/126587722-2dcc5f18-5dda-49f4-8e6f-5e24f538acd9.png)
 
 ---
