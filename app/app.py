@@ -96,18 +96,34 @@ def api_retrieve(movie_id) -> str:
 
 @app.route('/api/v1/movies/', methods=['POST'])
 def api_add() -> str:
+    content = request.json
+    cursor = mysql.get_db().cursor()
+    inputData = (content['Title'], content['Year'], content['Score'])
+    sql_insert_query = """INSERT INTO tblDeniroImport (Title,Year,Score) VALUES (%s, %s,%s) """
+    cursor.execute(sql_insert_query, inputData)
+    mysql.get_db().commit()
     resp = Response(status=201, mimetype='application/json')
     return resp
 
 
 @app.route('/api/v1/movies/<int:movie_id>', methods=['PUT'])
 def api_edit(movie_id) -> str:
+    cursor = mysql.get_db().cursor()
+    content = request.json
+    inputData = (content['Title'], content['Year'], content['Score'], movie_id)
+    sql_update_query = """UPDATE tblDeniroImport t SET t.Title = %s, t.Year = %s, t.Score = %s WHERE t.id = %s """
+    cursor.execute(sql_update_query, inputData)
+    mysql.get_db().commit()
     resp = Response(status=201, mimetype='application/json')
     return resp
 
 
 @app.route('/api/movies/<int:movie_id>', methods=['DELETE'])
 def api_delete(movie_id) -> str:
+    cursor = mysql.get_db().cursor()
+    sql_delete_query = """DELETE FROM tblDeniroImport WHERE id = %s """
+    cursor.execute(sql_delete_query, movie_id)
+    mysql.get_db().commit()
     resp = Response(status=210, mimetype='application/json')
     return resp
 
