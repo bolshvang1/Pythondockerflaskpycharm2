@@ -15,7 +15,7 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 
 ---
 
-- This is the Login Screen showing that you are able to close out of the flash message
+### This is the Login Screen showing that you are able to close out of the flash message
 ![Login Screen Flash message deleted](https://user-images.githubusercontent.com/85648353/127890558-1024306c-62d5-4d65-ba10-af22d726de5f.PNG)
 
 ---
