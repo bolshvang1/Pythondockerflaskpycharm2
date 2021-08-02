@@ -7,7 +7,7 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 
 ---
 
-### This is my Login Screen that comes up when you go to http://localhost:5000 
+### This is my Login Screen that comes up when you go to http://localhost:5000 after running the program on your local computer
 - You are unable to access any other webpage that allows you to view, add, edit, or delete the records without a successful login
 - A flash message appears that welcomes you to the website and asks for you to login in order to proceed
 - You may close out of this flash message but an incorrect username/password or trying to access a different page will reroute you to the Login page with the flash message again
