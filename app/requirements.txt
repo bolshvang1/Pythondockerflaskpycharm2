@@ -1,3 +1,7 @@
 Flask
 flask-mysql
 simplejson
+flask-mysqldb
+flask-login
+flask-sessions
+flask-wtf
