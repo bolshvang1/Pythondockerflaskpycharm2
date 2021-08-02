@@ -3,35 +3,40 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 
 ---
 
-- Screenshot A: Data table in Pycharm containing my own data
-![image](https://user-images.githubusercontent.com/85648353/126587298-8ba235bc-5ff3-428b-a7a2-099786ab6452.png)
+-  Project showing postman listing all records
+![PostmanRecords](https://user-images.githubusercontent.com/85648353/127246695-29dc6b7a-6fd0-426b-a0c7-5a95b9170cfd.PNG)
 
 ---
 
-- Screenshot B: Homepage with data displayed in my browser
-![Screenshot B](https://user-images.githubusercontent.com/85648353/126587415-122ee436-350a-42c4-ae45-a7c416fc4693.png)
+-  Project showing postman showing one record with a get request
+![PostmanGetOneRecord](https://user-images.githubusercontent.com/85648353/127246972-50dd696c-65b8-40ca-9ea2-f705b5aa4348.PNG)
 
 ---
 
-- Screenshot C: Data record as view of one record
-![Screenshot C](https://user-images.githubusercontent.com/85648353/126587532-45c6a737-cac4-4a5e-b6f3-44d6004e19c3.png)
+- Project showing postman creating a record by showing the post request and the results in
+the record listing
+![PostmanPost](https://user-images.githubusercontent.com/85648353/127247045-9315cbfe-e34a-44fc-93b6-8d2cf6ab245a.PNG)
 
 ---
 
-- Screenshot D: New Record added to my homepage
-![Screenshot D](https://user-images.githubusercontent.com/85648353/126587601-5ba6a172-d82e-486f-a955-63fde18ae372.png)
+![PostmanPostResults](https://user-images.githubusercontent.com/85648353/127247051-471aa750-1c78-42fa-8433-d4984bcae28d.PNG)
 
 ---
 
-- Screenshot E: Updated record added to homepage. See Screenshot D for original records.
-![Screenshot E](https://user-images.githubusercontent.com/85648353/126587664-4edbad11-dd2c-4ac0-8681-6f1c4be9fe68.png)
+- Project showing postman edit a record by showing the put request and the results in the
+record listing
+![PostmanPut](https://user-images.githubusercontent.com/85648353/127247094-b0121d52-6c9f-4e08-92db-b460c699b3ad.PNG)
 
 ---
 
-- Screenshot F: Deleted record from the homepage. See screenshot E for the original record. Deleted "The Intern Part 2".
-![Screenshot F](https://user-images.githubusercontent.com/85648353/126587722-2dcc5f18-5dda-49f4-8e6f-5e24f538acd9.png)
+![PostmanPutResults](https://user-images.githubusercontent.com/85648353/127247105-307882f5-ef05-4172-9c6a-17e4bb199f11.PNG)
 
 ---
 
-- Another Screenshot of the Fullscreen: 
-![Screenshot Fullscreen](https://user-images.githubusercontent.com/85648353/126587772-76ea309d-37c3-4609-8a3b-ca6a6b008afb.png)
+-  Project showing postman delete a record by showing the delete request and the results in
+the record listing
+![PostmanDelete](https://user-images.githubusercontent.com/85648353/127247144-f3162ff8-d607-438c-9a44-85d1c59c744e.PNG)
+
+---
+
+![PostmanDeleteResults](https://user-images.githubusercontent.com/85648353/127247153-1ee528f1-e185-4368-b9ff-aaa32c34c6d2.PNG)
