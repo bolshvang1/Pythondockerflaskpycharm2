@@ -36,3 +36,7 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 ### The Records that you are now able to view, add, edit, and delete after a successful login
 ![Website](https://user-images.githubusercontent.com/85648353/127891315-397deec9-0fc2-4b22-91ac-800419164592.PNG)
 
+### API Endpoint is Available by clicking API on the Nav Bar 
+![image](https://user-images.githubusercontent.com/85648353/127941980-a9498340-5f1e-4ab4-a5aa-ebbfba5198b1.png)
+
+
